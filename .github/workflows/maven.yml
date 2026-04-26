@@ -22,4 +22,4 @@ jobs:
         run: mvn clean install
 
       - name: Run Application
-        run: java -cp target/classes com.example
+        run: java -cp target/classes com.example.App
